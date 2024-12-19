@@ -30,7 +30,7 @@ This script checks for DNS zone transfer vulnerabilities for a given domain. It 
 
 2. Make the script executable:
    ```bash
-   chmod +x check_zone_transfer.sh
+   chmod +x CZT.sh
    ```
 
 ## Usage:
@@ -38,14 +38,14 @@ This script checks for DNS zone transfer vulnerabilities for a given domain. It 
 To use the script, run the following command:
 
 ```bash
-./check_zone_transfer.sh <domain_name>
+./CZT.sh <domain_name>
 ```
 
 Replace `<domain_name>` with the domain you want to check.
 
 Example:
 ```bash
-./check_zone_transfer.sh example.com
+./CZT.sh example.com
 ```
 
 The script will:
