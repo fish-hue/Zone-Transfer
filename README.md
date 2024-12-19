@@ -1,4 +1,4 @@
-# Zone Transfer Checke
+# Zone Transfer Checker
 
 This script checks for DNS zone transfer vulnerabilities for a given domain. It uses the `dig` tool to query authoritative nameservers and attempts a zone transfer (`AXFR`) on each one to determine if any of them are misconfigured to allow unauthorized transfers.
 
